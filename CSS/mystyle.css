@@ -178,7 +178,7 @@ a {
 }
 .Toblerone_now
 {
-   background: url(/IMG/neew.png);
+   background: url("../IMG/neew.png");
     background-repeat: no-repeat;
     background-size: 130%;
     height: 600px;
@@ -186,7 +186,7 @@ a {
 }
 .Toblerone_then
 {
-    background: url(/IMG/oo.jpg);
+    background: url(../IMG/oo.jpg);
     background-repeat: no-repeat;
 
     background-size: 100%;
