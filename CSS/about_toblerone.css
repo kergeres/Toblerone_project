@@ -1,28 +1,11 @@
-
-/*heeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaader*/
-
-
-/*maiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiin*/
-
-.making
-{
+.making {
     width: 100%;
     margin-bottom: 70px;
 }
-/*fooooooooooooooooooooooooooooooter*/
-
 
 @media only screen and (min-width:720px) {
-    /*heeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaader*/
 
-    /*maiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiin*/
-    .making
-{
-    width: 80%;
-
-}
-
-
-    /*fooooooooooooooooooooooooooooooooooooooooter*/
-
+    .making {
+        width: 80%;
+    }
 }

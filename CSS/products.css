@@ -14,11 +14,19 @@
     border: 2px solid black;
     margin: 20px auto;
 
-}
 
+}
+.gift_product_item
+{
+
+    border: 2px solid white;
+
+
+}
     .product_picture
     {
-        height: 130px;
+        height: 140px;
+        width: 70px;
         float: right;
     }
     .product_text
@@ -53,6 +61,7 @@
     .product_picture
     {
         height: 150px;
+
 
     }
     .product_text
