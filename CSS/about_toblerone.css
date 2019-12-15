@@ -1,11 +1,37 @@
 .making {
+    display: none;
+}
+
+.making_small {
     width: 100%;
-    margin-bottom: 70px;
+}
+
+.small_area {
+    width: 100%;
+
+}
+
+.calories {
+    width: 100%;
 }
 
 @media only screen and (min-width:720px) {
 
     .making {
-        width: 80%;
+        width: 70%;
+        display: block;
+    }
+
+    .making_small {
+        display: none;
+    }
+
+    .calories {
+        width: 70%;
+    }
+
+    .small_area {
+        width: 70%;
+
     }
 }

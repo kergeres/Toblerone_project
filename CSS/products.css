@@ -1,81 +1,76 @@
-
-/*heeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaader*/
-
-
-/*maiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiin*/
-.the_products
-{
+/*main*/
+.the_products {
     display: block;
 }
-.product_item
-{
+
+.product_item {
     width: 100%;
     height: 130px;
-    border: 2px solid black;
+    border: 1px solid black;
     margin: 20px auto;
-
-
+    background-color: #DAA520;
 }
-.gift_product_item
-{
 
-    border: 2px solid white;
+.gift_product_item {
 
-
+    border: 3px solid white;
+    background-color: #997000;
 }
-    .product_picture
-    {
-        height: 140px;
-        width: 70px;
-        float: right;
-    }
-    .product_text
-    {
-        width: 72%;
-        float: left;
-        text-align: justify;
-        font-family: Candara;
-        padding: 5px;
-        margin: auto;
-        font-size: 13px;
 
-    }
+.product_picture {
+    height: 130px;
+    width: 70px;
+    float: right;
+}
 
-/*fooooooooooooooooooooooooooooooter*/
+.product_text {
+    width: 72%;
+    float: left;
+    text-align: justify;
+    font-family: Candara;
+    padding: 5px;
+    margin: auto;
+    font-size: 16px;
+}
+
+.gift_text {
+    width: 97%;
+    text-align: justify;
+    font-family: Candara;
+    padding: 5px;
+    margin: auto;
+    font-size: 17px;
+}
+
+/*fooer*/
 
 @media only screen and (min-width:720px) {
-    /*heeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaader*/
 
+    /*main*/
 
-    /*maiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiin*/
+    .product_item {
+        width: 500px;
+        height: 150px;
+        margin: auto 30px 50px 30px;
+        float: left;
+    }
 
-    .product_item
-{
-    width: 500px;
-    height: 150px;
-    margin: auto 30px 50px 30px;
-    float: left;
-
-
-}
-    .product_picture
-    {
+    .product_picture {
         height: 150px;
 
 
     }
-    .product_text
-    {
+
+    .product_text {
         width: 400px;
 
         margin: 0;
-        font-size: 17px;
-
-
+        font-size: 23px;
     }
 
-
-
-    /*fooooooooooooooooooooooooooooooooooooooooter*/
+    .gift_text {
+        margin: 0;
+        font-size: 23px;
+    }
 
 }

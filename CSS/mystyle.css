@@ -9,11 +9,12 @@ a {
     font-family: Candara;
     font-size: 1.2em;
 }
-/*heeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaader*/
+
+/*heder*/
 
 .header {
     background-color: #b38600;
-    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0);
+    box-shadow: 1px 1px 14px 0 rgba(0, 0, 0);
     position: fixed;
     width: 100%;
     z-index: 3;
@@ -46,7 +47,7 @@ a {
 }
 
 .logo {
-  height: 40px;
+    height: 40px;
     padding: 10px 0 8px 10px;
 }
 
@@ -129,14 +130,14 @@ a {
 
 
 
-/*maiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiin*/
-.main
-{
+/*main*/
+.main {
     width: 100%;
 
 
 
 }
+
 .headline_a_div {
     display: flex;
     justify-content: center;
@@ -144,23 +145,36 @@ a {
     width: 100%;
 
 }
+
 .headline_a {
     font-size: 50px;
     font-family: Candara;
     color: #1a1300;
+    margin-top: 100px;
 
 
 }
+
+.headline_aa {
+    font-size: 50px;
+    font-family: Candara;
+    color: #1a1300;
+    margin-top: 100px;
+
+}
+
 .headline_b {
     font-size: 30px;
     margin: 20px 0 20px 0;
     font-family: Candara;
 
 }
+
 .main_area {
     width: 90%;
     margin: 0 auto;
 }
+
 .text {
     font-size: 20px;
     font-family: Candara;
@@ -168,122 +182,140 @@ a {
     margin: 10px;
     text-align: justify;
 }
+
 .subs_txt {
     font-size: 18px;
     font-family: Arial;
     line-height: 1.4;
     margin: 10px;
-    text-align: center;
+    text-align: justify;
     margin-bottom: 40px;
 }
-.Toblerone_now
-{
-   background: url("../IMG/neew.png");
-    background-repeat: no-repeat;
-    background-size: 130%;
-    height: 600px;
 
-}
-.Toblerone_then
-{
-    background: url(../IMG/oo.jpg);
+.Toblerone_now {
+    background: url("../IMG/mod.jpg");
     background-repeat: no-repeat;
-
     background-size: 100%;
-    height: 600px;
+    padding-bottom: 60px;
 
 
 
 
 }
+
+.Toblerone_then {
+    background: url(../IMG/ketto.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+    padding-bottom: 50px;
+
+
+
+
+
+}
+
 .top {
-        margin-top: 60px;
+    margin-top: 60px;
 
 
-    }
-.subscribe_section
-    {
-        width: 100%;
-        height: 500px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+}
+
+.subscribe_section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
-    }
-.subscribe_container
-    {
-        width: 90%;
-        height: 500px;
-        display: block;
-        background-color: #960b0b;
-        padding: 20px;
-    }
+}
+
+.subscribe_container {
+    width: 90%;
+    height: auto;
+    display: block;
+    background-color: #949494;
+    padding: 20px;
+}
+
+.big_headlinetxt {
+    font-size: 3em;
+    margin: 0px;
+    letter-spacing: 1px;
+}
 
 .subscribe {
-  background-color: #b38600;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+    background-color: #b38600;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
-.justified
-{
+
+.forsubscribetxt {
+    font-size: 40px;
+    font-family: Arial;
+    margin-bottom: 18px;
+
+
+}
+
+
+.justified {
     justify-content: center;
     display: flex;
 }
-.toinput
-{
+
+.toinput {
     width: 90%;
     height: 30px;
+
 }
-
-
-/*fooooooooooooooooooooooooooooooter*/
-.footer
-{
+/*footer*/
+.footer {
     width: 100%;
     height: 300px;
     background: #533400;
+    margin-top: 50px;
 }
-.socialmedia_container{
+
+.socialmedia_container {
     display: flex;
     justify-content: center;
-
-
 }
+
 .socialmedia {
     color: white;
     width: 45px;
     height: 45px;
     margin: 40px 20px auto 20px;
 }
-.contact{
+
+.contact {
     display: flex;
     justify-content: center;
 
 }
-
-
-.contact_list
-{
+.contact_list {
     font-family: Candara;
     font-size: 1.4em;
     color: white;
     list-style-type: none;
-
 }
 
-.list
-{
+.list {
     padding: 10px 0;
 }
 
 @media only screen and (min-width:720px) {
-    /*heeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaader*/
+
+    /*header*/
     .header li {
         float: left
     }
@@ -302,47 +334,66 @@ a {
         display: none;
     }
 
-    /*maiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiin*/
+    /*main*/
+    .big_headlinetxt {
+        font-size: 100px;
+        margin: 0px;
+    }
+
     .headline_a_div {
         margin-top: 0px;
-
-
     }
-
     .headline_a {
-        font-size: 70px;
+        font-size: 100px;
+        margin-top: 100px;
     }
-
-.subscribe_container
-    {
+    .headline_aa {
+        font-size: 100px;
+        margin-top: 100px;
+        color: aliceblue;
+    }
+    .subscribe_container {
         width: 60%;
-        height: 400px;
+        height: 500px;
         border: 1px solid black;
+        margin: 50px;
 
     }
-    .toinput
-{
-    width: 30%;
-    height: 30px;
-}
+
+    .toinput {
+        width: 30%;
+        height: 30px;
+    }
+
     .text {
 
-    margin-left: 20%;
-    margin-right: 50px;
-}
-    /*fooooooooooooooooooooooooooooooooooooooooter*/
-    .footer
-{
-    width: 100%;
-    height: 200px;
-    justify-content: space-around;
-    display: flex;
-    align-items: center;
+        margin-left: 10%;
+        margin-right: 50px;
+        font-size: 25px;
+    }
 
+    .Toblerone_then {
+        color: aliceblue;
 
+    }
 
-}
+    .Toblerone_now {
+
+        color: aliceblue;
+
+    }
+
+    /*footer*/
+    .footer {
+        width: 100%;
+        height: 200px;
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+
+    }
+
     .socialmedia {
-    margin: auto 20px auto 20px;
-}
+        margin: auto 20px auto 20px;
+    }
 }
