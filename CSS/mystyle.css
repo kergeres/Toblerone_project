@@ -236,7 +236,8 @@ a {
     width: 90%;
     height: auto;
     display: block;
-    background-color: #949494;
+
+    background-image: url('../IMG/hegy.jpg');
     padding: 20px;
 }
 
@@ -257,16 +258,15 @@ a {
     display: inline-block;
     font-size: 16px;
 }
+.subscribe:hover {
+border: 2px solid #533400;
+}
 
 .forsubscribetxt {
     font-size: 40px;
     font-family: Arial;
     margin-bottom: 18px;
-
-
 }
-
-
 .justified {
     justify-content: center;
     display: flex;
@@ -349,7 +349,8 @@ a {
     }
     .headline_aa {
         font-size: 100px;
-        margin-top: 100px;
+        margin-top: 80px;
+        margin-bottom: 0px;
         color: aliceblue;
     }
     .subscribe_container {
